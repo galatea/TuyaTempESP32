@@ -1,6 +1,4 @@
-Dear Readers,
-
-In the following description, I would like to show you how to cost-effectively access the data from your Tuya temperature and humidity sensors at home—without the need for a Gateway or other magic boxes.
+<h2>Dear Readers, In the following description, I would like to show you how to cost-effectively access the data from your Tuya temperature and humidity sensors at home—without the need for a Gateway or other magic boxes.</h2>
 
 Here is the temperature sensor: <br>
 <img width="270" height="273" alt="image" src="https://github.com/user-attachments/assets/37452922-8a3f-4863-b9ea-9b5a01f98708" />
@@ -34,8 +32,22 @@ The first step is to flash the firmware on the sensors with a PVVX (https://pvvx
 
 6. Connect - > OTA - > Change to XXX_XXX_XX Application Firmwave.
 
-7. Upload the code to the ESP32
+<h2>I have implemented two solutions: </h2>
 
-8. Check the Console:
+Advertisement: In this case, we capture and process the data broadcasted by the sensor.
+Advantages:
+
+Energy efficient
+
+Supports handling a large number of sensors
+
+Per-device connection: In this case, I connect to each device individually to retrieve the data.
+
+1. Upload the code to the ESP32
+
+2. Check the Console:
    <br><img width="674" height="474" alt="image" src="https://github.com/user-attachments/assets/cb86c8c9-a036-4090-99b6-f569729f93a4" />
+
+
+
 
